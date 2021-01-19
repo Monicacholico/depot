@@ -11,12 +11,12 @@ class Animal
         @name = value
     end
 
-    # def age = (value)
-    #     if value < 0
-    #         raise "An age of #{value} isn't valid!"
-    #     end
-    #     @age = value
-    # end
+    def age = (value)
+        if value < 0
+            raise "An age of #{value} isn't valid!"
+        end
+        @age = value
+    end
 
     def talk
         puts "#{@name} says Bark!"
