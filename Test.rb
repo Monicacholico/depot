@@ -33,4 +33,3 @@ class Animal
 end
 
 
-Animal.talk
